@@ -23,11 +23,40 @@
 | 015    | [http://8848-015-preview.wp.dev.egorealestate.com] | + style.less
 | 016    | [http://8848-016-preview.wp.dev.egorealestate.com] | + style.less
 | 017    | [http://8848-017-preview.wp.dev.egorealestate.com] | + style.less
-| 018    | [http://8848-018-preview.wp.dev.egorealestate.com] | + style.less + imovel.detalhe.php
+| 018    | [http://8848-018-preview.wp.dev.egorealestate.com] | + style.less + imovel.detalhe.php + empreendimento.detalhe.php
 | 019    | [http://8848-019-preview.wp.dev.egorealestate.com] | + style.less
-
--		-		-		--		-		-		--		-		-		--		-		-		--		-		-		--		-
-| 041    | [http://8848-041-preview.wp.dev.egorealestate.com] | + style.less
+|				 |																										|
+|				 |		    <do tema 20 ao 39 @JOAO-COSTA>							|
+|				 |																										|
+| 040    | [http://8848-040-preview.wp.dev.egorealestate.com] | + style.less
+| 041    | [http://8848-041-preview.wp.dev.egorealestate.com] | + não existe
+| 042    | [http://8848-042-preview.wp.dev.egorealestate.com] | + style.less
+| 043    | [http://8848-043-preview.wp.dev.egorealestate.com] | + não existe
+| 044    | [http://8848-044-preview.wp.dev.egorealestate.com] | + style.less + imovel.detalhe.php + empreendimento.detalhe.php
+| 045    | [http://8848-045-preview.wp.dev.egorealestate.com] | + não existe
+| 046    | [http://8848-046-preview.wp.dev.egorealestate.com] | + style.less
+| 047    | [http://8848-047-preview.wp.dev.egorealestate.com] | + style.less
+| 048    | [http://8848-048-preview.wp.dev.egorealestate.com] | + style.less
+| 049    | [http://8848-049-preview.wp.dev.egorealestate.com] | + style.less
+| 050    | [http://8848-050-preview.wp.dev.egorealestate.com] | + style.less
+| 051    | [http://8848-051-preview.wp.dev.egorealestate.com] | + style.less
+| 052    | [http://8848-052-preview.wp.dev.egorealestate.com] | + style.less
+| 053    | [http://8848-053-preview.wp.dev.egorealestate.com] | + style.less
+| 054    | [http://8848-054-preview.wp.dev.egorealestate.com] | + style.less
+| 055    | [http://8848-055-preview.wp.dev.egorealestate.com] | + não existe
+| 056    | [http://8848-056-preview.wp.dev.egorealestate.com] | + style.less
+| 057    | [http://8848-057-preview.wp.dev.egorealestate.com] | + style.less
+| 058    | [http://8848-058-preview.wp.dev.egorealestate.com] | + não está online
+| 059    | [http://8848-059-preview.wp.dev.egorealestate.com] | + style.less
+| 060    | [http://8848-060-preview.wp.dev.egorealestate.com] | + style.less
+| 061    | [http://8848-061-preview.wp.dev.egorealestate.com] | + style.less
+| 062    | [http://8848-062-preview.wp.dev.egorealestate.com] | + style.less
+| 063    | [http://8848-063-preview.wp.dev.egorealestate.com] | + style.less
+|				 |		       <tema 64 @JOAO-COSTA>	      						|
+| 065    | [http://8848-065-preview.wp.dev.egorealestate.com] | + style.less
+|				 |		       <tema 66 @JOAO-COSTA>	      						|
+|				 |																										|
+|				 |																										|
 
 
 
@@ -40,11 +69,24 @@
 
 ##CSS
 ```sh
+
+/* protecao de dados*/
+
+.FeatureNewDataProtection {
+	a {
+		text-decoration: underline !important;
+		&:hover {
+			transition: color .75s ease 0s;
+			color: @cor-principal !important;
+		}
+	}
+}
+
 .boxChecks {
-	//background: #000 !important;
 	text-align: left !important;
 	a{
 		&:hover {
+			transition: color .75s ease 0s;
 			color: @cor-principal !important;
 		}
 	}
@@ -53,11 +95,15 @@
 .dataprotection {
   width: 100% !important;
 	a{
+		color: #fff !important;
+		font-weight: bold !important;
 		&:hover {
+			transition: color .75s ease 0s;
 			color: @cor-principal !important;
 		}
 	}
 }
+
 ```
 ##efects
 ```sh
@@ -137,42 +183,17 @@ $(document).ready( function() {
 	 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
 
-	    [dill]: <https://github.com/joemccann/dillinger>
-	    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-	    [john gruber]: <http://daringfireball.net>
-	    [df1]: <http://daringfireball.net/projects/markdown/>
-	    [markdown-it]: <https://github.com/markdown-it/markdown-it>
-	    [Ace Editor]: <http://ace.ajax.org>
-	    [node.js]: <http://nodejs.org>
-	    [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-	    [jQuery]: <http://jquery.com>
-	    [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-	    [express]: <http://expressjs.com>
-	    [AngularJS]: <http://angularjs.org>
-	    [Gulp]: <http://gulpjs.com>
+	    []: <https://github.com/>
+	    []: <https://github.com/>
+	    []: <http://>
 
 
 ## Credits
 
-* [Google Fonts - Open Sans, Fjalla One](https://fonts.google.com)
-* [Font Awesome v4](http://fontawesome.io/)
-* [Waypoint.js](http://imakewebthings.com/waypoints/)
-* [Tiny Slider](https://github.com/ganlanyuan/tiny-slider)
-* [Chart js](http://www.chartjs.org/)
+* [Google Fonts](https://fonts.google.com)
+* [Icommon](http://fontawesome.io/)
+
 
 ## License
 
-Use it freely but please do not republish, distribute or sell "as-is". [Read more about our license.](http://tympanus.net/codrops/licensing/)
-
-## Misc
-
-Follow Amie: [Website](https://www.amie-chen.com/), [Dribbble](http://www.dribbble.com/amiechen01), [Github](https://github.com/amiechen), [Twitter](https://twitter.com/hyper_yolo), [Medium](https://medium.com/@hyperyolo)
-
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/pages/Codrops/159107397912), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/)
-
-[© Codrops 2018](http://www.codrops.com)
-
-
-# Pesquisar
-
-[![mysql_real_escape_string ](https://)
+[© Nuno Santos 2018](http://)
