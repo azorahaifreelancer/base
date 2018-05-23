@@ -2,7 +2,7 @@
 
 ![Ego](./screenshot.jpg)
 
-## Templates
+
 
 | THEME  | LINK § URL |
 | ------ | ---------- |
