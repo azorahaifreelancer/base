@@ -27,7 +27,7 @@
 
 # Dillinger
 
-[![N|S](https://github.com/azorahaifreelancer/base/blob/gh-pages/ns.thumb.png)](https://nodesource.com/products/nsolid)
+[![N|S](https://github.com/azorahaifreelancer/base/ns.thumb.png)](https://github.com/azorahaifreelancer)
 
 Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
 
