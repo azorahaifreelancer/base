@@ -1,199 +1,206 @@
-# Nuno Santos - work Every Day!!
 
-![Ego](./screenshot.jpg)
 
-git help'
+   [dill]: <https://github.com/joemccann/dillinger>
+   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
+   [john gruber]: <http://daringfireball.net>
+   [df1]: <http://daringfireball.net/projects/markdown/>
+   [markdown-it]: <https://github.com/markdown-it/markdown-it>
+   [Ace Editor]: <http://ace.ajax.org>
+   [node.js]: <http://nodejs.org>
+   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+   [jQuery]: <http://jquery.com>
+   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
+   [express]: <http://expressjs.com>
+   [AngularJS]: <http://angularjs.org>
+   [Gulp]: <http://gulpjs.com>
 
-| THEME  | LINK § URL |
-| ------ | ---------- |
-| 001    | [http://8848-001-preview.wp.dev.egorealestate.com] | + style.less
-| 002    | [http://8848-002-preview.wp.dev.egorealestate.com] | + style.less
-| 003    | [http://8848-003-preview.wp.dev.egorealestate.com] | + style.less
-| 004    | [http://8848-004-preview.wp.dev.egorealestate.com] | + style.less
-| 005    | [http://8848-005-preview.wp.dev.egorealestate.com] | + style.less
-| 006    | [http://8848-006-preview.wp.dev.egorealestate.com] | + style.less
-| 007    | [http://8848-007-preview.wp.dev.egorealestate.com] | + style.less
-| 008    | [http://8848-008-preview.wp.dev.egorealestate.com] | + style.less
-| 009    | [http://8848-009-preview.wp.dev.egorealestate.com] | + style.less
-| 010    | [http://8848-010-preview.wp.dev.egorealestate.com] | + style.less
-| 011    | [http://8848-011-preview.wp.dev.egorealestate.com] | + style.less
-| 012    | [http://8848-012-preview.wp.dev.egorealestate.com] | + style.less
-| 013    | [http://8848-013-preview.wp.dev.egorealestate.com] | + style.less
-| 014    | [http://8848-014-preview.wp.dev.egorealestate.com] | + style.less
-| 015    | [http://8848-015-preview.wp.dev.egorealestate.com] | + style.less
-| 016    | [http://8848-016-preview.wp.dev.egorealestate.com] | + style.less
-| 017    | [http://8848-017-preview.wp.dev.egorealestate.com] | + style.less
-| 018    | [http://8848-018-preview.wp.dev.egorealestate.com] | + style.less + imovel.detalhe.php + empreendimento.detalhe.php
-| 019    | [http://8848-019-preview.wp.dev.egorealestate.com] | + style.less
-|				 |																										|
-|				 |		    <do tema 20 ao 39 @JOAO-COSTA>							|
-|				 |																										|
-| 040    | [http://8848-040-preview.wp.dev.egorealestate.com] | + style.less
-| 041    | [http://8848-041-preview.wp.dev.egorealestate.com] | + não existe
-| 042    | [http://8848-042-preview.wp.dev.egorealestate.com] | + style.less
-| 043    | [http://8848-043-preview.wp.dev.egorealestate.com] | + não existe
-| 044    | [http://8848-044-preview.wp.dev.egorealestate.com] | + style.less + imovel.detalhe.php + empreendimento.detalhe.php
-| 045    | [http://8848-045-preview.wp.dev.egorealestate.com] | + não existe
-| 046    | [http://8848-046-preview.wp.dev.egorealestate.com] | + style.less
-| 047    | [http://8848-047-preview.wp.dev.egorealestate.com] | + style.less
-| 048    | [http://8848-048-preview.wp.dev.egorealestate.com] | + style.less
-| 049    | [http://8848-049-preview.wp.dev.egorealestate.com] | + style.less
-| 050    | [http://8848-050-preview.wp.dev.egorealestate.com] | + style.less
-| 051    | [http://8848-051-preview.wp.dev.egorealestate.com] | + style.less
-| 052    | [http://8848-052-preview.wp.dev.egorealestate.com] | + style.less
-| 053    | [http://8848-053-preview.wp.dev.egorealestate.com] | + style.less
-| 054    | [http://8848-054-preview.wp.dev.egorealestate.com] | + style.less
-| 055    | [http://8848-055-preview.wp.dev.egorealestate.com] | + não existe
-| 056    | [http://8848-056-preview.wp.dev.egorealestate.com] | + style.less
-| 057    | [http://8848-057-preview.wp.dev.egorealestate.com] | + style.less
-| 058    | [http://8848-058-preview.wp.dev.egorealestate.com] | + não está online
-| 059    | [http://8848-059-preview.wp.dev.egorealestate.com] | + style.less
-| 060    | [http://8848-060-preview.wp.dev.egorealestate.com] | + style.less
-| 061    | [http://8848-061-preview.wp.dev.egorealestate.com] | + style.less
-| 062    | [http://8848-062-preview.wp.dev.egorealestate.com] | + style.less
-| 063    | [http://8848-063-preview.wp.dev.egorealestate.com] | + style.less
-|				 |		       <tema 64 @JOAO-COSTA>	      						|
-| 065    | [http://8848-065-preview.wp.dev.egorealestate.com] | + style.less
-|				 |		       <tema 66 @JOAO-COSTA>	      						|
-|				 |																										|
-|				 |																										|
+   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
+   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
+   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
 
 
 
-## FeatureNewDataProtection
-
-1.  Proteção de Dados [](https:///))
-2.  Termos e condições.
-3.  Politica de Privacidade
 
 
+# Dillinger
 
-```sh
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-/* protecao de dados*/
+Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
 
-.FeatureNewDataProtection {
-	a {
-		text-decoration: underline !important;
-		&:hover {
-			transition: color .75s ease 0s;
-			color: @cor-principal !important;
-		}
-	}
-}
+  - Type some Markdown on the left
+  - See HTML in the right
+  - Magic
 
-.boxChecks {
-	text-align: left !important;
-	a{
-		&:hover {
-			transition: color .75s ease 0s;
-			color: @cor-principal !important;
-		}
-	}
-}
+# New Features!
 
-.dataprotection {
-  width: 100% !important;
-	a{
-		color: #fff !important;
-		font-weight: bold !important;
-		&:hover {
-			transition: color .75s ease 0s;
-			color: @cor-principal !important;
-		}
-	}
-}
-
-```
-##efects
-```sh
-
-.transition {
-    -webkit-transition: color .75s ease 0s;
-    -moz-transition: color .75s ease 0s;
-    -ms-transition: color .75s ease 0s;
-    -o-transition: color .75s ease 0s;
-    transition: color .75s ease 0s;
-}
-```
-
-/* protecao de dados */
-.dataprotection,
-.FeatureNewDataProtection {
-	a{
-		position: relative;
-		z-index: 9;
-		&:hover {
-			color: @cor-principal !important;
-			transition: color .75s ease 0s !important;
-		}
-	}
-}
-.boxChecks {
-  z-index: 999 !important;
-  a:hover {
-    color: @cor-principal !important;
-    transition: color .75s ease 0s !important;
-  }
-}
+  - Import a HTML file and watch it magically convert to Markdown
+  - Drag and drop images (requires your Dropbox account be linked)
 
 
-##PHP + JS
--imóvel detalhe / empreendimento detalhe.
--função para validar se têm a Feature para estilizar poutros elementos fora da FeatureNewDataProtection.
+You can also:
+  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
+  - Drag and drop markdown and HTML files into Dillinger
+  - Export documents as Markdown, HTML and PDF
+
+Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
+
+> The overriding design goal for Markdown's
+> formatting syntax is to make it as readable
+> as possible. The idea is that a
+> Markdown-formatted document should be
+> publishable as-is, as plain text, without
+> looking like it's been marked up with tags
+> or formatting instructions.
+
+This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
+
+### Tech
+
+Dillinger uses a number of open source projects to work properly:
+
+* [AngularJS] - HTML enhanced for web apps!
+* [Ace Editor] - awesome web-based text editor
+* [markdown-it] - Markdown parser done right. Fast and easy to extend.
+* [Twitter Bootstrap] - great UI boilerplate for modern web apps
+* [node.js] - evented I/O for the backend
+* [Express] - fast node.js network app framework [@tjholowaychuk]
+* [Gulp] - the streaming build system
+* [Breakdance](http://breakdance.io) - HTML to Markdown converter
+* [jQuery] - duh
+
+And of course Dillinger itself is open source with a [public repository][dill]
+ on GitHub.
+
+### Installation
+
+Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
+
+Install the dependencies and devDependencies and start the server.
 
 ```sh
-<? if(empty(Plugin::GetId("FeatureNewDataProtection")) === false ){ ?>  
-<script>
-$(document).ready( function() {    
- /* trocar os elementos sitio */
-    $(".pluginListItem[class*='ContactForm']").addClass("Protdados");
-});
-</script>
-<? }?>
+$ cd dillinger
+$ npm install -d
+$ node app
 ```
 
-**markups!**
-   [bookmarks]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/bookmarks.html>
-   [politicas-de-privacidade]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/politicas-de-privacidade.md>
-   [termos-e-condicoes]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/termos-e-condicoes.md>
+For production environments...
 
- **readme!**
-    [bookmarks]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/bookmarks.html>
-    [politicas-de-privacidade]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/politicas-de-privacidade.md>
-    [termos-e-condicoes]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/termos-e-condicoes.md>
+```sh
+$ npm install --production
+$ NODE_ENV=production node app
+```
 
+### Plugins
 
-**stylesheet!**
-   [bookmarks]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/bookmarks.html>
-   [politicas-de-privacidade]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/politicas-de-privacidade.md>
-   [termos-e-condicoes]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/termos-e-condicoes.md>
+Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
 
-**js!**
- [bookmarks]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/bookmarks.html>
- [politicas-de-privacidade]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/politicas-de-privacidade.md>
- [termos-e-condicoes]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/termos-e-condicoes.md>
-
-
-**php!**
-  [bookmarks]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/bookmarks.html>
-  [politicas-de-privacidade]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/politicas-de-privacidade.md>
-  [termos-e-condicoes]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/termos-e-condicoes.md>
-
-	 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+| Plugin | README |
+| ------ | ------ |
+| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| Github | [plugins/github/README.md][PlGh] |
+| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| Medium | [plugins/medium/README.md][PlMe] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
 
-	    []: <https://github.com/>
-	    []: <https://github.com/>
-	    []: <http://>
+### Development
+
+Want to contribute? Great!
+
+Dillinger uses Gulp + Webpack for fast developing.
+Make a change in your file and instantanously see your updates!
+
+Open your favorite Terminal and run these commands.
+
+First Tab:
+```sh
+$ node app
+```
+
+Second Tab:
+```sh
+$ gulp watch
+```
+
+(optional) Third:
+```sh
+$ karma test
+```
+#### Building for source
+For production release:
+```sh
+$ gulp build --prod
+```
+Generating pre-built zip archives for distribution:
+```sh
+$ gulp build dist --prod
+```
+### Docker
+Dillinger is very easy to install and deploy in a Docker container.
+
+By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image.
+
+```sh
+cd dillinger
+docker build -t joemccann/dillinger:${package.json.version}
+```
+This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out `${package.json.version}` with the actual version of Dillinger.
+
+Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
+
+```sh
+docker run -d -p 8000:8080 --restart="always" <youruser>/dillinger:${package.json.version}
+```
+
+Verify the deployment by navigating to your server address in your preferred browser.
+
+```sh
+127.0.0.1:8000
+```
+
+#### Kubernetes + Google Cloud
+
+See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md)
 
 
-## Credits
+### Todos
 
-* [Google Fonts](https://fonts.google.com)
-* [Icommon](http://fontawesome.io/)
+ - Write MORE Tests
+ - Add Night Mode
+
+License
+----
+
+MIT
 
 
-## License
+**Free Software, Hell Yeah!**
 
-[© Nuno Santos 2018](http://)
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+
+   [dill]: <https://github.com/joemccann/dillinger>
+   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
+   [john gruber]: <http://daringfireball.net>
+   [df1]: <http://daringfireball.net/projects/markdown/>
+   [markdown-it]: <https://github.com/markdown-it/markdown-it>
+   [Ace Editor]: <http://ace.ajax.org>
+   [node.js]: <http://nodejs.org>
+   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+   [jQuery]: <http://jquery.com>
+   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
+   [express]: <http://expressjs.com>
+   [AngularJS]: <http://angularjs.org>
+   [Gulp]: <http://gulpjs.com>
+
+   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
+   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
+   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
