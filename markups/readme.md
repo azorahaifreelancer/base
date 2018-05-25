@@ -1,6 +1,4 @@
-# Nuno Santos - work Every Day!!
-
-![Ego](./screenshot.jpg)
+# Nuno Santos - work!
 
 
 | THEME  | LINK § URL |
@@ -54,19 +52,97 @@
 |				 |		       <tema 64 @JOAO-COSTA>	      						|
 | 065    | [http://8848-065-preview.wp.dev.egorealestate.com] | + style.less
 |				 |		       <tema 66 @JOAO-COSTA>	      						|
-|				 |																										|
-|				 |																										|
-
 
 
 ## FeatureNewDataProtection
 
-1.  Proteção de Dados [](https:///))
-2.  Termos e condições.
-3.  Politica de Privacidade
+## Plugins que eu aterei
+
+.PostJobsList
+.cobertura_BasicPropertySellU08
+
+
+## Personalisadas que eu alterei
+-castelhana-
+http://customego14357.wp.dev.egorealestate.com/
+http://www.castelhana.pt/
+
+-jll-
+http://customego-9987_1.wp.dev.egorealestate.com/
+http://residential.jll.pt/
+
+
+## php com divs
+```sh
+
+<? if(empty(Plugin::GetId("FeatureNewDataProtection")) === false ){ ?>
+  <div class="fieldBox dataprotection">
+    <div class="fieldValue">
+      <input class="checkbox" type="checkbox" id="acceptTerms" name="acceptTerms" value="true" validatemessage="{AVISO_ACEITAR_POLITICA_DE_PRIVACIDADE}" title="{ACEITAR_POLITICA_DE_PRIVACIDADE} {TERMOS_E_CONDICOES} {E_A} {POLITICA_PRIVACIDADE}" validate="empty"/>
+      <label for="acceptTerms">{DECLARO_QUE_LI}</label> <a class="link2" style="color:#999999" href="javascript:openTermsConditions()">{TERMOS_E_CONDICOES}</a> <label for="acceptTerms">{E_A}</label>
+      <a class="link2" style="color:#999999" href="javascript:openPrivacyPolicy()">{POLITICA_PRIVACIDADE}</a>
+    </div>
+  <div class="fieldValue">
+    <input class="checkbox" id="acceptMaisInfo" type="checkbox" name="acceptMaisInfo" value="true" title="{ACEITO_RECEBER_MAIS_INFORMACOES}" validate="empty"/>
+    <label for="acceptMaisInfo">{ACEITO_RECEBER_MAIS_INFORMACOES}</label>
+  </div>
+</div>
+
+<? } elseif(empty(Plugin::GetId("FeatureDataProtectionDisclaimer")) === false || empty(Plugin::GetId("FeatureGenericDisclaimer")) === false && Agency::GetCountry() == 724 || Settings::GetDefaultLanguage() == 'ES-ES' ){ ?>
+  <input type="checkbox" class="checkbox" name="acceptTerms" value="true" validatemessage="{AVISO_ACEITAR_POLITICA_DE_PRIVACIDADE}" validate="empty"/>
+  <span><a class="link" style="color:#999999" href="javascript:openDataDisclaimer()">{ACEITAR_POLITICA_DE_PRIVACIDADE}</a></span>
+<? } else if(File::ExistsLocal('disclaimer.php')) { ?>
+  <input type="checkbox" name="acceptTerms" value="true" validatemessage="{AVISO_ACEITAR_POLITICA_DE_PRIVACIDADE}" validate="empty"/>
+  <span><a class="link" style="color:#999999" href="javascript:window.openDialog('disclaimer.php?lang=<?=Settings::GetLanguage()?>')">{ACEITAR_POLITICA_DE_PRIVACIDADE}</a></span>
+<? } ?>
+
+```
+
+## php com tabelas
+```sh
+
+  <? if(empty(Plugin::GetId("FeatureNewDataProtection")) === false ){ ?>
+
+  <tr>
+    <td width="100%" colspan="2"> 
+      <div class="fieldBox dataprotection">
+        <div class="fieldValue">
+          <input class="checkbox" type="checkbox" id="acceptTerms" name="acceptTerms" value="true" validatemessage="{AVISO_ACEITAR_POLITICA_DE_PRIVACIDADE}" title="{ACEITAR_POLITICA_DE_PRIVACIDADE} {TERMOS_E_CONDICOES} {E_A} {POLITICA_PRIVACIDADE}" validate="empty"/>
+          <label for="acceptTerms">{DECLARO_QUE_LI}</label> <a class="link2" style="color:#999999" href="javascript:openTermsConditions()">{TERMOS_E_CONDICOES}</a> <label for="acceptTerms">{E_A}</label>
+          <a class="link2" style="color:#999999" href="javascript:openPrivacyPolicy()">{POLITICA_PRIVACIDADE}</a>
+        </div>
+        <div class="fieldValue">
+          <input class="checkbox" id="acceptMaisInfo" type="checkbox" name="acceptMaisInfo" value="true" title="{ACEITO_RECEBER_MAIS_INFORMACOES}" validate="empty"/>
+          <label for="acceptMaisInfo">{ACEITO_RECEBER_MAIS_INFORMACOES}</label>
+        </div>
+      </div>
+    </td>
+  </tr>
+  
+  <? } elseif(empty(Plugin::GetId("FeatureDataProtectionDisclaimer")) === false || empty(Plugin::GetId("FeatureGenericDisclaimer")) === false && Agency::GetCountry() == 724 || Settings::GetDefaultLanguage() == 'ES-ES' ){ ?>
+  
+  <tr>
+    <td>
+      <input type="checkbox" class="checkbox" name="acceptTerms" value="true" validatemessage="{AVISO_ACEITAR_POLITICA_DE_PRIVACIDADE}" validate="empty"/>
+      <span><a class="link" style="color:#999999" href="javascript:openDataDisclaimer()">{ACEITAR_POLITICA_DE_PRIVACIDADE}</a></span>
+    </td>
+  </tr>
+  
+  <? } else if(File::ExistsLocal('disclaimer.php')) { ?>
+  
+  <tr>
+    <td>
+      <input type="checkbox" name="acceptTerms" value="true" validatemessage="{AVISO_ACEITAR_POLITICA_DE_PRIVACIDADE}" validate="empty"/>
+      <span><a class="link" style="color:#999999" href="javascript:window.openDialog('disclaimer.php?lang=<?=Settings::GetLanguage()?>')">{ACEITAR_POLITICA_DE_PRIVACIDADE}</a></span>
+    </td>
+  </tr>
+  
+  <? } ?>        
+```
 
 
 
+## css
 ```sh
 
 /* protecao de dados*/
@@ -104,7 +180,7 @@
 }
 
 ```
-##efects
+## efects
 ```sh
 
 .transition {
@@ -115,7 +191,8 @@
     transition: color .75s ease 0s;
 }
 ```
-
+## simple
+```sh
 /* protecao de dados */
 .dataprotection,
 .FeatureNewDataProtection {
@@ -135,9 +212,9 @@
     transition: color .75s ease 0s !important;
   }
 }
+```
 
-
-##PHP + JS
+## PHP + JS
 -imóvel detalhe / empreendimento detalhe.
 -função para validar se têm a Feature para estilizar poutros elementos fora da FeatureNewDataProtection.
 
@@ -196,18 +273,29 @@ $(document).ready( function() {
   [politicas-de-privacidade]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/politicas-de-privacidade.md>
   [termos-e-condicoes]: <https://github.com/azorahaifreelancer/base/blob/gh-pages/markups/termos-e-condicoes.md>
 
-	 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-
 	    []: <https://github.com/>
 	    []: <https://github.com/>
 	    []: <http://>
 
 
+## trocate dois elementos inline
+```sh
+ var width=  $('.BasicPropertySlideshowTriplePlusU12 .location').width();      
+ $('.BasicPropertySlideshowTriplePlusU12 .nat').css({ 'width': 'calc(100% - ' + width+ 'px - 30px)' });  
+```
+css do truncate
+```sh
+white-space: nowrap;  
+text-overflow: ellipsis;  
+overflow: hidden; 
+```
+
+
+
 ## Credits
 
 * [Google Fonts](https://fonts.google.com)
-* [Icommon](http://fontawesome.io/)
+* [Icommon](https://icomoon.io/)
 
 
 ## License
