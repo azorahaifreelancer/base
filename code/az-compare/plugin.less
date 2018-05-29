@@ -1,0 +1,264 @@
+.AdvancedCompareCountU0X {
+	width: 0 !important;
+	height: auto;
+	z-index: 9999;
+
+	.frame {
+		.link {
+			.cmp-container {
+				#cmpcount {
+					color: #fff;
+					position: fixed;
+					right: 0;
+					top: 0;
+					font-size: 30px;
+					width: 30px;
+					height: 30px;
+					background: red;
+				}
+
+				#cmp {}
+			}
+		}
+
+		#listagem {
+			width: 100vw;
+			position: fixed;
+			top: 0;
+			left: 0;
+
+			.recordList {
+				width: 100%;
+				background: lighten(@bg-menu, 5%);
+				margin: 0;
+
+				.main-title {
+					color: @cor-principal !important;
+					font-weight: bold !important;
+					width: 50% !important;
+					position: absolute !important;
+					font-size: 30px !important;
+					margin: 30px 30px 30px 60px !important;
+				}
+
+				.menu {
+					width: 130px;
+					position: absolute;
+					right: 10px;
+					bottom: 20px;
+
+					.vermais {
+						width: 175px;
+						position: absolute;
+						display: inline-block;
+						border-radius: 5px;
+						border: 1px dotted @cor-principal;
+						padding: 7.5px;
+						margin: 7.5px 30px;
+						max-height: 45px;
+						max-width: 200px;
+						right: 10px;
+						top: -40px;
+						color: #fff;
+						text-align: center;
+						text-transform: uppercase;
+
+						a {
+							color: @cor-principal;
+						}
+
+						&:hover {
+							background: lighten(@bg-menu, 7.5%);
+						}
+					}
+				}
+
+				#imo_list {
+					float: right;
+					width: 86.75%;
+					margin-right: 260px;
+
+					.recordItem {
+						width: 100%;
+						max-width: 300px;
+						position: relative;
+						float: right;
+						display: inline-block;
+						border-radius: 5px;
+						border: 1px dotted @cor-principal;
+						padding: 10px;
+						margin: 25px 5px;
+						.fixborders;
+						.trasition;
+
+						&:hover {
+							background: lighten(@bg-menu, 7.5%);
+						}
+					}
+
+					.recordItem:nth-child(+n+4) {
+						display: none !important;
+					}
+
+					.link {
+						display: inline-block;
+						width: 100%;
+
+						.thumbnailframe {
+							float: left;
+						}
+
+						.thumbnail {
+							float: left;
+							width: 75px;
+							margin-right: 10px;
+						}
+
+						h3.title {
+							color: #fff;
+							font-size: 12px;
+							font-weight: bold;
+						}
+
+						.subtitle,
+						.text {
+							color: #fff;
+							font-size: 11px;
+						}
+					}
+
+					.noResult {
+						color: #fff;
+						text-align: center;
+					}
+
+					.close {
+						position: absolute;
+						top: 5px;
+						right: 5px;
+						z-index: 999;
+					}
+				}
+			}
+		}
+
+
+		.limpar {
+			width: 175px;
+			position: absolute;
+			display: inline-block;
+			border-radius: 5px;
+			border: 1px dotted @cor-principal;
+			padding: 7.5px;
+			margin: 25px 30px;
+			max-height: 45px;
+			max-width: 200px;
+			right: 20px;
+			top: 0;
+			color: #fff;
+			text-align: center;
+			text-transform: uppercase;
+			background: lighten(@bg-menu, 5%);
+			font-size: 14px;
+
+			a {
+				color: @cor-principal;
+			}
+
+			&:hover {
+				background: lighten(@bg-menu, 7.5%);
+			}
+		}
+
+		.closeAll {
+			cursor: pointer !important;
+			width: 15px;
+			height: 15px;
+			margin-left: 0;
+			position: absolute;
+			right: 20px;
+			top: 10px;
+			border: 1px solid #f3f3f3;
+			border-radius: 30px;
+			padding: 2px;
+		}
+	}
+}
+
+#slidecontainer {
+	display: flex !important;
+
+	.slideitem {
+		width: auto !important;
+		min-width: 30vw !important;
+		max-width: 50vw !important;
+		height: 100vh !important;
+		min-height: 100vh !important;
+		max-height: 100vh !important;
+		border-right: 0px solid transparent !important;
+		padding: 50px !important;
+	}
+}
+.prototype_dialogTable {
+	width: 100vw !important;
+	height: 100vh !important;
+
+	tbody {
+		> tr {
+			position: absolute !important;
+
+			td {
+				.prototype_dialogClose {
+					height: 30px;
+					width: 30px;
+					padding: 2px;
+					font-size: 30px;
+				}
+			}
+		}
+	}
+	iframe {
+		width: 100vw !important;
+		height: 100vh !important;
+	}
+}
+/*
+.prototype_dialogTable {
+	width: 100% !important;
+	height: 100% !important;
+
+	tbody {
+		> tr {
+			position: absolute !important;
+
+			td {
+				.prototype_dialogClose {
+					height: 30px;
+					width: 30px;
+					padding: 2px;
+					font-size: 30px;
+				}
+			}
+		}
+
+		tr + tr {
+			.prototype_dialogBox {
+				width: 100vw !important;
+				height: 100vh !important;
+			}
+
+			.prototype_dialogFrame {
+				width: 100vw !important;
+				height: 100vh !important;
+			}
+
+			body {
+				width: 100vw !important;
+				height: 100vh !important;
+			}
+
+
+		}
+	}
+}
+*/

@@ -1,0 +1,12 @@
+<plugin
+  key="AdvancedCompareCountU0X"
+  units="0"
+	deprecated="false"
+	feature=""
+	dependency="compare"
+	name="[PT-PT]Plugin de compararção[/PT-PT]"
+	description="[PT-PT][/PT-PT]"
+  icon="{ICON}"
+  group=""
+  version="1.0">
+</plugin>
