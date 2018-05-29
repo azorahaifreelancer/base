@@ -71,6 +71,9 @@ http://www.castelhana.pt/
 http://customego-9987_1.wp.dev.egorealestate.com/
 http://residential.jll.pt/
 
+-caimoveis
+http://customego-caimoveis.wp.dev.egorealestate.com/
+http://www.caimoveis.pt/
 
 ## php com divs
 ```sh
@@ -104,7 +107,7 @@ http://residential.jll.pt/
   <? if(empty(Plugin::GetId("FeatureNewDataProtection")) === false ){ ?>
 
   <tr>
-    <td width="100%" colspan="2"> 
+    <td width="100%" colspan="2">
       <div class="fieldBox dataprotection">
         <div class="fieldValue">
           <input class="checkbox" type="checkbox" id="acceptTerms" name="acceptTerms" value="true" validatemessage="{AVISO_ACEITAR_POLITICA_DE_PRIVACIDADE}" title="{ACEITAR_POLITICA_DE_PRIVACIDADE} {TERMOS_E_CONDICOES} {E_A} {POLITICA_PRIVACIDADE}" validate="empty"/>
@@ -118,25 +121,25 @@ http://residential.jll.pt/
       </div>
     </td>
   </tr>
-  
+
   <? } elseif(empty(Plugin::GetId("FeatureDataProtectionDisclaimer")) === false || empty(Plugin::GetId("FeatureGenericDisclaimer")) === false && Agency::GetCountry() == 724 || Settings::GetDefaultLanguage() == 'ES-ES' ){ ?>
-  
+
   <tr>
     <td>
       <input type="checkbox" class="checkbox" name="acceptTerms" value="true" validatemessage="{AVISO_ACEITAR_POLITICA_DE_PRIVACIDADE}" validate="empty"/>
       <span><a class="link" style="color:#999999" href="javascript:openDataDisclaimer()">{ACEITAR_POLITICA_DE_PRIVACIDADE}</a></span>
     </td>
   </tr>
-  
+
   <? } else if(File::ExistsLocal('disclaimer.php')) { ?>
-  
+
   <tr>
     <td>
       <input type="checkbox" name="acceptTerms" value="true" validatemessage="{AVISO_ACEITAR_POLITICA_DE_PRIVACIDADE}" validate="empty"/>
       <span><a class="link" style="color:#999999" href="javascript:window.openDialog('disclaimer.php?lang=<?=Settings::GetLanguage()?>')">{ACEITAR_POLITICA_DE_PRIVACIDADE}</a></span>
     </td>
   </tr>
-  
+
   <? } ?>        
 ```
 
@@ -287,7 +290,7 @@ css do truncate
 ```sh
 white-space: nowrap;  
 text-overflow: ellipsis;  
-overflow: hidden; 
+overflow: hidden;
 ```
 
 
